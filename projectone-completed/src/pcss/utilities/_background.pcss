@@ -1,0 +1,7 @@
+/* Background color utilities */
+@each $color, $value in var(--theme-colors-map) {
+	.bg-$(color) {
+		background-color: $(value);
+    }
+}
+/* end of background color utilities */

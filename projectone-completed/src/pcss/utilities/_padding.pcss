@@ -1,0 +1,87 @@
+/* Padding utility */ 
+
+
+@for $i from 1 to 5 {
+    .p-$i { 
+        padding: calc(var(--theme-spacer) * var(--theme-spacer-multiplier-$(i)))
+    }
+}
+
+
+.p-0 {
+    padding: 0 !important;
+}
+
+.px-0 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.px-2 {
+    padding-right: 0.5rem !important;
+    padding-left: 0.5rem !important;
+}
+
+.px-3 {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+}
+
+.py-0 {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.py-1 {
+    padding-top: 0.25rem !important;
+    padding-bottom: 0.25rem !important;
+}
+
+.py-2 {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
+.py-3 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+.py-7 {
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+}
+
+.pt-1 {
+    padding-top: 0.25rem !important;
+}
+
+.pt-4 {
+    padding-top: 1.5rem !important;
+}
+
+.pt-6 {
+    padding-top: 3.5rem !important;
+}
+
+.pt-7 {
+    padding-top: 4rem !important;
+}
+
+.pb-1 {
+    padding-bottom: 0.25rem !important;
+}
+
+.pb-3 {
+    padding-bottom: 1rem !important;
+}
+
+.pb-10 {
+    padding-bottom: 7rem !important;
+} 
+/* End of padding utility */
