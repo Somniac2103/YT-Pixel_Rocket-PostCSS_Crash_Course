@@ -29,7 +29,10 @@
   "dependencies": {
     "@popperjs/core": "^2.9.3",
     "bootstrap": "^5.0.2",
-    "bootstrap-icons": "^1.7.2"
+    "bootstrap-icons": "^1.7.2",
+    "cssnano": "^7.0.6",
+    "gulp-postcss": "^10.0.0",
+    "purgecss": "^7.0.2"
   },
   "devDependencies": {
     "browser-sync": "^2.26.7",

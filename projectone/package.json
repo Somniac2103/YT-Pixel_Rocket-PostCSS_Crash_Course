@@ -1,16 +1,27 @@
 {
   "name": "projectone",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "postcss": "postcss ./src/pcss/main.css --output ./assets/css/main.css"
+    "postcss": "postcss ./src/pcss/main.pcss --output ./assets/css/main.css --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "devDependencies": {
+    "postcss": "^8.4.14",
+    "postcss-at-rules-variables": "^0.3.0",
+    "postcss-cli": "^9.1.0",
+    "postcss-custom-media": "^8.0.1",
+    "postcss-each": "^1.1.0",
+    "postcss-each-variables": "^0.3.0",
+    "postcss-for": "^2.1.1",
+    "postcss-import": "^10.0.0",
+    "postcss-nested": "^5.0.6",
+    "postcss-partial-import": "^4.1.0"
+  },
   "dependencies": {
-    "postcss": "^8.4.47",
-    "postcss-cli": "^11.0.0"
+    "bootstrap": "^5.1.3"
   }
 }
